@@ -1,0 +1,71 @@
+[data-theme="dark"] {
+    --main-color: #272b30;
+    --seconde-color: #32383e;
+    --color-text: #fff;
+    --btn-main-color: #272729;
+ }
+ 
+ [data-theme="light"] {
+    --main-color: #eeeeee;
+    --seconde-color: #909396;
+    --color-text: #000;
+    --btn-main-color: #414550;
+ }
+
+ 
+.main-btn {
+    background-color: var(--btn-main-color);
+    color: var(--color-text);
+ }
+ 
+ .main-btn:hover {
+    background: linear-gradient(rgb(0 0 0 / 0.1), rgb(0 0 0 / 0.2));
+ }
+ 
+ .form-control,
+ .form-control:focus {
+    background-color: var(--main-color);
+    color: var(--color-text);
+    border-color: var(--seconde-color);
+ }
+ 
+ .form-control::placeholder {
+    color: var(--color-text);
+ }
+ 
+ .badge-color {
+    background-color: var(--seconde-color);
+ }
+ 
+
+body{
+    background-color: #272B30;
+}
+.register-area{
+    background-color: #3D4145;
+}
+.regstImg{
+    background: url("../../images/register.jpg")  center / cover no-repeat;
+    min-height: 100%;
+}
+
+.form-data input::placeholder{
+    color: white;
+}
+span{
+    font-size: 14px;
+}
+
+[data-theme="dark"] {
+    --main-color: #272b30;
+    --seconde-color: #32383e;
+    --color-text: #fff;
+    --btn-main-color: #272729;
+ }
+ 
+ [data-theme="light"] {
+    --main-color: #eeeeee;
+    --seconde-color: #909396;
+    --color-text: #000;
+    --btn-main-color: #414550;
+ }
