@@ -1,0 +1,77 @@
+
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="setup/css/all.min.css">
+    <link rel="stylesheet" href="setup/css/bootstrap.min.css">
+    <link rel="stylesheet" href="setup/css/login.css">
+
+    <title>LogIn</title>
+</head>
+<body>
+      <!-- ========== Start Fixed ========== -->
+      <!-- fa-moon   fa-sun -->
+
+      <span class="position-fixed bottom-0 end-0 m-3 z-3">
+        <i role="button" id="mode" class="fa-regular fa-sun fa-xl p-3"></i>
+     </span>
+     <!-- ========== End Fixed ========== -->
+    <main class="container register min-vh-100 hstack">
+        <section class="register-area shadow w-100 rounded overflow-hidden">
+            <div class="row g-0">
+                <div class="col-lg-5 d-none d-md-block">
+                    <div class="regstImg"></div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="p-5">
+                        <header class="text-center text-light">
+                            <img src="images/logo-sm.png" alt="logo">
+                            <h1>LogIn to Game Over</h1>
+                        </header>
+                        <form action="" class="row g-3 my-4">
+                            <div class="col-md-12">
+                                <div class="form-data">
+                                    <input type="email" id="email" class="form-control bg-dark border-0 text-light" placeholder="Email Address" />
+                                    <ul class="alert alert-danger p-0 invalid-feedback">
+                                       <li>Email Is Required</li>
+                                       <li>InValid Email Formate</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-data">
+                                    <input type="password" id="password" class="form-control bg-dark border-0 text-light" placeholder="Password" />
+                                    <ul class="alert alert-danger p-0 invalid-feedback">
+                                       <li>Password Is Required</li>
+                                       <li>Minimum eight characters, at least one letter and one number</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <button id="btnLogin" class="btn text-center w-100 main-btn border-1 bg-dark text-light">Login</button>
+                                <p id="msg" class="text-center"></p>
+                            </div>
+                        </form>
+                        <footer class="position-relative py-2">
+                            <span class="text-light position-absolute top-50 start-50 translate-middle">Don't have an account?<a href="register.html" class="link-secondary text-decoration-none" role="button"> Creat account <i class="fa-solid fa-angle-right"></i></a></span>
+                        </footer>
+                    </div>
+
+                    
+                    
+                
+
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <script src="setup/js/all.min.js"></script>
+    <script src="setup/js/bootstrap.bundle.min.js"></script>
+    <script src="setup/js/login.js"></script>
+</body>
+</html>
